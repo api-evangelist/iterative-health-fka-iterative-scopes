@@ -1,8 +1,27 @@
 aid: iterative-health-fka-iterative-scopes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iterative-health-fka-iterative-scopes.png
 name: Iterative Health (fka Iterative Scopes)
-description: 'Iterative Health (fka Iterative Scopes) is a company surfaced as a portfolio company of
-  insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: healthcare.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Iterative Health (formerly Iterative Scopes) is a healthcare and life-sciences
+  company that operates an AI-enabled clinical research network, connecting pharmaceutical
+  sponsors and contract research organizations (CROs) with community-based medical sites
+  across gastroenterology (GI), hepatology, obesity, and cardiology. Its SKOUT product
+  applies artificial intelligence to streamline site operations and patient enrollment,
+  and the company runs a global site network embedded in community care practices
+  through partnerships with GI Alliance, One GI, and US Heart & Vascular. Backed by
+  Insight Partners, the company closed a $77M Series C in April 2026. Iterative Health
+  does not currently publish a public developer API, SDKs, or developer portal; this
+  profile tracks its identity and web presence in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/iterative-health-fka-iterative-scopes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Clinical Research
+- Life Sciences
+- Artificial Intelligence
+- Gastroenterology
+- Biotechnology
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iterative-health-fka-iterative-scopes-domain-security.yml
 - type: Website
-  url: https://www.iterativescopes.com/
+  url: https://iterative.health/
+- type: About
+  url: https://iterative.health/about-us/
+- type: Blog
+  url: https://iterative.health/resources/
+- type: Support
+  url: https://iterative.health/contact-us-iterative-health/
+- type: Careers
+  url: https://iterative.health/iterative-health-careers/
+- type: PrivacyPolicy
+  url: https://iterative.health/privacy-policy/
+- type: TermsOfService
+  url: https://iterative.health/terms-and-service/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
